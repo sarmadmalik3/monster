@@ -25,7 +25,7 @@ class RaddarViewControlller: UIViewController, AVAudioPlayerDelegate {
         super.viewDidLoad()
         prepareAudio()
         imgNoMonsterDetected.isHidden = true
-        DispatchQueue.main.asyncAfter(deadline: .now() + 13) { [weak self] in
+        DispatchQueue.main.asyncAfter(deadline: .now() + 11) { [weak self] in
             self?.audioPlayer.stop()
             self?.prepareAudioForNomonsterDetected()
             let generator = UINotificationFeedbackGenerator()
@@ -55,7 +55,7 @@ class RaddarViewControlller: UIViewController, AVAudioPlayerDelegate {
     
     //MARK:-Prepare seesion
     func prepareAudio(){
-        guard let url = Bundle.main.url(forResource: "raddarSound", withExtension: "mp3") else { return }
+        guard let url = Bundle.main.url(forResource: "radarSound", withExtension: "mp3") else { return }
         do {
             //keep alive audio at background
             try AVAudioSession.sharedInstance().setCategory(AVAudioSession.Category(rawValue: convertFromAVAudioSessionCategory(AVAudioSession.Category.playback)))
@@ -70,9 +70,7 @@ class RaddarViewControlller: UIViewController, AVAudioPlayerDelegate {
         UIApplication.shared.beginReceivingRemoteControlEvents()
         audioPlayer = try? AVAudioPlayer(contentsOf: url)
         audioPlayer.delegate = self
-        audioPlayer.enableRate = true
         audioPlayer.prepareToPlay()
-        audioPlayer.rate = 1.5
         audioPlayer.play()
 
     }

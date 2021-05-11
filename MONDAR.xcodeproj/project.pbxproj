@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7702AC41263D3747003E4EB9 /* raddarSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7702AC40263D3747003E4EB9 /* raddarSound.mp3 */; };
+		04BF2E12264A8ADB008FB445 /* initialSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BF2E11264A8ADB008FB445 /* initialSound.mp3 */; };
+		04BF2E15264A8B40008FB445 /* radarSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 04BF2E14264A8B40008FB445 /* radarSound.mp3 */; };
 		7702AC46263D4134003E4EB9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702AC45263D4134003E4EB9 /* Extension.swift */; };
 		77523C9C263B10C90099FA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77523C9B263B10C90099FA8E /* AppDelegate.swift */; };
 		77523C9E263B10C90099FA8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77523C9D263B10C90099FA8E /* SceneDelegate.swift */; };
@@ -21,8 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BF2E11264A8ADB008FB445 /* initialSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = initialSound.mp3; sourceTree = "<group>"; };
+		04BF2E14264A8B40008FB445 /* radarSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = radarSound.mp3; sourceTree = "<group>"; };
 		1ED3932B66C714721B069125 /* Pods_MONDAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MONDAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7702AC40263D3747003E4EB9 /* raddarSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = raddarSound.mp3; sourceTree = "<group>"; };
 		7702AC45263D4134003E4EB9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		77523C98263B10C90099FA8E /* MONDAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MONDAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77523C9B263B10C90099FA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,8 +55,9 @@
 		7702AC43263D374B003E4EB9 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
+				04BF2E11264A8ADB008FB445 /* initialSound.mp3 */,
+				04BF2E14264A8B40008FB445 /* radarSound.mp3 */,
 				77EDAE25263D51A300EBEAD8 /* no_monster_detected.mp3 */,
-				7702AC40263D3747003E4EB9 /* raddarSound.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -171,8 +174,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				77523CA8263B10CB0099FA8E /* LaunchScreen.storyboard in Resources */,
-				7702AC41263D3747003E4EB9 /* raddarSound.mp3 in Resources */,
+				04BF2E12264A8ADB008FB445 /* initialSound.mp3 in Resources */,
 				77523CA5263B10CB0099FA8E /* Assets.xcassets in Resources */,
+				04BF2E15264A8B40008FB445 /* radarSound.mp3 in Resources */,
 				77EDAE26263D51A300EBEAD8 /* no_monster_detected.mp3 in Resources */,
 				77523CA3263B10C90099FA8E /* Main.storyboard in Resources */,
 			);
