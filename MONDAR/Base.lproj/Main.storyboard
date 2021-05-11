@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MONDAR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACKGORUND" translatesAutoresizingMaskIntoConstraints="NO" id="yyY-OK-0aS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MONDAR LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="XVw-ra-pw9">
+                                <rect key="frame" x="20" y="55" width="374" height="90"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CLEAR BEFORE BED" translatesAutoresizingMaskIntoConstraints="NO" id="pcN-5J-XRc">
+                                <rect key="frame" x="20" y="153" width="374" height="103.5"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PUSH TO START WHITE" translatesAutoresizingMaskIntoConstraints="NO" id="VNN-q3-F9U">
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VNN-q3-F9U" secondAttribute="height" multiplier="1:1" id="FmN-J5-1N2"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MONSTER RADAR" translatesAutoresizingMaskIntoConstraints="NO" id="dIr-ji-Pe9">
+                                <rect key="frame" x="20" y="833.5" width="374" height="35"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2h-uT-K20" customClass="RippleView" customModule="HGRippleRadarView">
+                                <rect key="frame" x="57" y="298" width="300" height="300"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yyY-OK-0aS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="177-dC-Kul"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dIr-ji-Pe9" secondAttribute="trailing" constant="20" id="AR0-xn-ZMs"/>
+                            <constraint firstItem="pcN-5J-XRc" firstAttribute="height" secondItem="yyY-OK-0aS" secondAttribute="height" multiplier="0.115513" id="AcO-P8-xxy"/>
+                            <constraint firstItem="pcN-5J-XRc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="CGA-2B-S6U"/>
+                            <constraint firstItem="VNN-q3-F9U" firstAttribute="height" secondItem="yyY-OK-0aS" secondAttribute="height" multiplier="0.334821" id="G2O-Yh-yzV"/>
+                            <constraint firstItem="pcN-5J-XRc" firstAttribute="top" secondItem="XVw-ra-pw9" secondAttribute="bottom" constant="8" id="HDf-ku-BZz"/>
+                            <constraint firstItem="dIr-ji-Pe9" firstAttribute="height" secondItem="yyY-OK-0aS" secondAttribute="height" multiplier="0.0390625" id="KGJ-pS-0Bu"/>
+                            <constraint firstItem="e2h-uT-K20" firstAttribute="top" secondItem="VNN-q3-F9U" secondAttribute="top" id="PWv-Bw-SoA"/>
+                            <constraint firstItem="e2h-uT-K20" firstAttribute="leading" secondItem="VNN-q3-F9U" secondAttribute="leading" id="QP3-Xd-dsr"/>
+                            <constraint firstItem="yyY-OK-0aS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RDg-iC-hZS"/>
+                            <constraint firstItem="XVw-ra-pw9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WO7-rK-dbR"/>
+                            <constraint firstItem="e2h-uT-K20" firstAttribute="bottom" secondItem="VNN-q3-F9U" secondAttribute="bottom" id="Z0D-oh-WAm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pcN-5J-XRc" secondAttribute="trailing" constant="20" id="Z8f-Mz-5qJ"/>
+                            <constraint firstAttribute="bottom" secondItem="yyY-OK-0aS" secondAttribute="bottom" id="eIJ-EM-YWS"/>
+                            <constraint firstAttribute="bottom" secondItem="dIr-ji-Pe9" secondAttribute="bottom" constant="27.5" id="fs8-jn-Ek4"/>
+                            <constraint firstItem="VNN-q3-F9U" firstAttribute="centerX" secondItem="yyY-OK-0aS" secondAttribute="centerX" id="hNr-IV-hVg"/>
+                            <constraint firstItem="yyY-OK-0aS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="i6Z-MQ-cWa"/>
+                            <constraint firstItem="VNN-q3-F9U" firstAttribute="centerY" secondItem="yyY-OK-0aS" secondAttribute="centerY" id="oWH-wk-72Q"/>
+                            <constraint firstItem="e2h-uT-K20" firstAttribute="trailing" secondItem="VNN-q3-F9U" secondAttribute="trailing" id="r0R-sQ-hP8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XVw-ra-pw9" secondAttribute="trailing" constant="20" id="s29-oo-0wd"/>
+                            <constraint firstItem="XVw-ra-pw9" firstAttribute="height" secondItem="yyY-OK-0aS" secondAttribute="height" multiplier="0.100446" id="uLG-2Z-HvY"/>
+                            <constraint firstItem="dIr-ji-Pe9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="uje-iX-iLY"/>
+                            <constraint firstItem="XVw-ra-pw9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="55" id="xe5-an-AaE"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgPushToStart" destination="VNN-q3-F9U" id="S1H-w2-bHY"/>
+                        <outlet property="rippleView" destination="e2h-uT-K20" id="Gtn-hR-yJt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140.57971014492756" y="60.9375"/>
+        </scene>
+        <!--Raddar View Controlller-->
+        <scene sceneID="ahQ-Hm-IeD">
+            <objects>
+                <viewController storyboardIdentifier="RaddarViewControlller" id="JSr-eq-nLA" customClass="RaddarViewControlller" customModule="MONDAR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I1Z-pw-3Yp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACKGORUND" translatesAutoresizingMaskIntoConstraints="NO" id="f6S-sG-3mM">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BOARDER" translatesAutoresizingMaskIntoConstraints="NO" id="ExO-hY-ZoB">
+                                <rect key="frame" x="17" y="258" width="380" height="380"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yeH-aq-8sy" customClass="RadarView" customModule="HGRippleRadarView">
+                                <rect key="frame" x="62" y="303" width="290" height="290"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="numberOfCircles">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MONDAR LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="QSr-It-q2A">
+                                <rect key="frame" x="20" y="55" width="374" height="90"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SERCH FOR MONSTERS" translatesAutoresizingMaskIntoConstraints="NO" id="nBs-03-cfa">
+                                <rect key="frame" x="20" y="153" width="374" height="90"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NO MONSTERS DETECDED" translatesAutoresizingMaskIntoConstraints="NO" id="M8H-TJ-5th">
+                                <rect key="frame" x="62" y="398" width="290" height="100"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9w7-L1-pGR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ExO-hY-ZoB" firstAttribute="width" secondItem="I1Z-pw-3Yp" secondAttribute="height" multiplier="95:224" id="9fU-Ne-Qgm"/>
+                            <constraint firstItem="9w7-L1-pGR" firstAttribute="trailing" secondItem="nBs-03-cfa" secondAttribute="trailing" constant="20" id="BvQ-Ot-sgr"/>
+                            <constraint firstItem="nBs-03-cfa" firstAttribute="height" secondItem="f6S-sG-3mM" secondAttribute="height" multiplier="0.100446" id="CFB-BG-Aej"/>
+                            <constraint firstItem="M8H-TJ-5th" firstAttribute="centerY" secondItem="ExO-hY-ZoB" secondAttribute="centerY" id="Ji3-wZ-9yr"/>
+                            <constraint firstItem="nBs-03-cfa" firstAttribute="top" secondItem="QSr-It-q2A" secondAttribute="bottom" constant="8" symbolic="YES" id="MF2-AO-e04"/>
+                            <constraint firstItem="ExO-hY-ZoB" firstAttribute="trailing" secondItem="M8H-TJ-5th" secondAttribute="trailing" constant="45" id="MUG-3o-Fme"/>
+                            <constraint firstItem="f6S-sG-3mM" firstAttribute="top" secondItem="I1Z-pw-3Yp" secondAttribute="top" id="OWW-9L-Ryv"/>
+                            <constraint firstItem="ExO-hY-ZoB" firstAttribute="centerY" secondItem="yeH-aq-8sy" secondAttribute="centerY" id="POH-Ac-tqx"/>
+                            <constraint firstItem="nBs-03-cfa" firstAttribute="leading" secondItem="9w7-L1-pGR" secondAttribute="leading" constant="20" id="SEW-oT-Rkk"/>
+                            <constraint firstItem="9w7-L1-pGR" firstAttribute="trailing" secondItem="QSr-It-q2A" secondAttribute="trailing" constant="20" id="XFr-0g-2VW"/>
+                            <constraint firstItem="9w7-L1-pGR" firstAttribute="trailing" secondItem="f6S-sG-3mM" secondAttribute="trailing" id="Yxe-Wh-oPb"/>
+                            <constraint firstAttribute="bottom" secondItem="f6S-sG-3mM" secondAttribute="bottom" id="bWs-9L-Y7H"/>
+                            <constraint firstItem="yeH-aq-8sy" firstAttribute="centerY" secondItem="I1Z-pw-3Yp" secondAttribute="centerY" id="btO-8Y-zGb"/>
+                            <constraint firstItem="QSr-It-q2A" firstAttribute="leading" secondItem="9w7-L1-pGR" secondAttribute="leading" constant="20" id="deI-qo-CqF"/>
+                            <constraint firstItem="yeH-aq-8sy" firstAttribute="centerX" secondItem="I1Z-pw-3Yp" secondAttribute="centerX" id="drJ-FI-U4N"/>
+                            <constraint firstItem="ExO-hY-ZoB" firstAttribute="centerX" secondItem="yeH-aq-8sy" secondAttribute="centerX" id="gc3-cR-xG8"/>
+                            <constraint firstItem="yeH-aq-8sy" firstAttribute="width" secondItem="I1Z-pw-3Yp" secondAttribute="height" multiplier="145:448" id="gr1-SW-xhy"/>
+                            <constraint firstItem="M8H-TJ-5th" firstAttribute="leading" secondItem="ExO-hY-ZoB" secondAttribute="leading" constant="45" id="iSh-Of-6eB"/>
+                            <constraint firstItem="ExO-hY-ZoB" firstAttribute="height" secondItem="I1Z-pw-3Yp" secondAttribute="height" multiplier="0.424107" id="lJw-fT-f6n"/>
+                            <constraint firstItem="yeH-aq-8sy" firstAttribute="height" secondItem="I1Z-pw-3Yp" secondAttribute="height" multiplier="0.323661" id="lms-Ps-844"/>
+                            <constraint firstItem="f6S-sG-3mM" firstAttribute="leading" secondItem="9w7-L1-pGR" secondAttribute="leading" id="ntg-Es-rSk"/>
+                            <constraint firstItem="QSr-It-q2A" firstAttribute="top" secondItem="I1Z-pw-3Yp" secondAttribute="top" constant="55" id="oK6-fh-LOy"/>
+                            <constraint firstItem="M8H-TJ-5th" firstAttribute="height" secondItem="f6S-sG-3mM" secondAttribute="height" multiplier="0.111607" id="oT5-HZ-ozh"/>
+                            <constraint firstItem="QSr-It-q2A" firstAttribute="height" secondItem="f6S-sG-3mM" secondAttribute="height" multiplier="0.100446" id="sIA-q4-qAH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgBorder" destination="ExO-hY-ZoB" id="jQ8-Va-5oC"/>
+                        <outlet property="imgNoMonsterDetected" destination="M8H-TJ-5th" id="3xI-jO-E6l"/>
+                        <outlet property="imgSearchForMonster" destination="nBs-03-cfa" id="O0S-FP-4fL"/>
+                        <outlet property="radarView" destination="yeH-aq-8sy" id="yyf-Sf-3XL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9QR-rT-bxO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957.97101449275374" y="60.9375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BACKGORUND" width="942" height="2100"/>
+        <image name="BOARDER" width="970" height="970"/>
+        <image name="CLEAR BEFORE BED" width="1755" height="260"/>
+        <image name="MONDAR LOGO" width="1656" height="426"/>
+        <image name="MONSTER RADAR" width="859" height="83"/>
+        <image name="NO MONSTERS DETECDED" width="1138" height="273"/>
+        <image name="PUSH TO START WHITE" width="1012" height="1000"/>
+        <image name="SERCH FOR MONSTERS" width="934" height="61"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

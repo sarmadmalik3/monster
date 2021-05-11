@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BACKGORUND" translatesAutoresizingMaskIntoConstraints="NO" id="Ur3-BQ-OHd">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MONDAR LOGO" translatesAutoresizingMaskIntoConstraints="NO" id="7Xi-7R-Cag">
+                                <rect key="frame" x="67" y="90" width="280" height="77"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="e4H-LH-5yC"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Ur3-BQ-OHd" secondAttribute="bottom" id="8Tt-Zz-3xm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ur3-BQ-OHd" secondAttribute="trailing" id="Aq1-Sd-Wwx"/>
+                            <constraint firstItem="Ur3-BQ-OHd" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="DFQ-AG-kli"/>
+                            <constraint firstItem="Ur3-BQ-OHd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Hmn-Uh-NND"/>
+                            <constraint firstItem="7Xi-7R-Cag" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" constant="90" id="Kr4-ry-IzB"/>
+                            <constraint firstItem="7Xi-7R-Cag" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="67" id="tzC-LA-SWj"/>
+                            <constraint firstAttribute="trailing" secondItem="7Xi-7R-Cag" secondAttribute="trailing" constant="67" id="xrB-ja-dj4"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BACKGORUND" width="942" height="2100"/>
+        <image name="MONDAR LOGO" width="1656" height="426"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

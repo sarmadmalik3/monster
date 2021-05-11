@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7702AC41263D3747003E4EB9 /* raddarSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7702AC40263D3747003E4EB9 /* raddarSound.mp3 */; };
+		7702AC46263D4134003E4EB9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7702AC45263D4134003E4EB9 /* Extension.swift */; };
+		77523C9C263B10C90099FA8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77523C9B263B10C90099FA8E /* AppDelegate.swift */; };
+		77523C9E263B10C90099FA8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77523C9D263B10C90099FA8E /* SceneDelegate.swift */; };
+		77523CA0263B10C90099FA8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77523C9F263B10C90099FA8E /* ViewController.swift */; };
+		77523CA3263B10C90099FA8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77523CA1263B10C90099FA8E /* Main.storyboard */; };
+		77523CA5263B10CB0099FA8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77523CA4263B10CB0099FA8E /* Assets.xcassets */; };
+		77523CA8263B10CB0099FA8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77523CA6263B10CB0099FA8E /* LaunchScreen.storyboard */; };
+		77523CB4263B1DC70099FA8E /* RaddarViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77523CB3263B1DC70099FA8E /* RaddarViewControlller.swift */; };
+		77EDAE26263D51A300EBEAD8 /* no_monster_detected.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77EDAE25263D51A300EBEAD8 /* no_monster_detected.mp3 */; };
+		EDE330F2EE8D1390D00562C3 /* Pods_MONDAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ED3932B66C714721B069125 /* Pods_MONDAR.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ED3932B66C714721B069125 /* Pods_MONDAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MONDAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7702AC40263D3747003E4EB9 /* raddarSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = raddarSound.mp3; sourceTree = "<group>"; };
+		7702AC45263D4134003E4EB9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		77523C98263B10C90099FA8E /* MONDAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MONDAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77523C9B263B10C90099FA8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77523C9D263B10C90099FA8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77523C9F263B10C90099FA8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77523CA2263B10C90099FA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77523CA4263B10CB0099FA8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77523CA7263B10CB0099FA8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77523CA9263B10CB0099FA8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77523CB3263B1DC70099FA8E /* RaddarViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaddarViewControlller.swift; sourceTree = "<group>"; };
+		77EDAE25263D51A300EBEAD8 /* no_monster_detected.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = no_monster_detected.mp3; sourceTree = "<group>"; };
+		88C3541898303D903E51E7F6 /* Pods-MONDAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MONDAR.debug.xcconfig"; path = "Target Support Files/Pods-MONDAR/Pods-MONDAR.debug.xcconfig"; sourceTree = "<group>"; };
+		E374E17EB0EC033AD527670A /* Pods-MONDAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MONDAR.release.xcconfig"; path = "Target Support Files/Pods-MONDAR/Pods-MONDAR.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77523C95263B10C90099FA8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE330F2EE8D1390D00562C3 /* Pods_MONDAR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7702AC43263D374B003E4EB9 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				77EDAE25263D51A300EBEAD8 /* no_monster_detected.mp3 */,
+				7702AC40263D3747003E4EB9 /* raddarSound.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		77523C8F263B10C90099FA8E = {
+			isa = PBXGroup;
+			children = (
+				77523C9A263B10C90099FA8E /* MONDAR */,
+				77523C99263B10C90099FA8E /* Products */,
+				77E53D1FF45FF9EAC43CC89D /* Pods */,
+				92236DD251F6E9D350AE5BC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77523C99263B10C90099FA8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77523C98263B10C90099FA8E /* MONDAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77523C9A263B10C90099FA8E /* MONDAR */ = {
+			isa = PBXGroup;
+			children = (
+				7702AC43263D374B003E4EB9 /* Audio */,
+				77523C9B263B10C90099FA8E /* AppDelegate.swift */,
+				77523C9D263B10C90099FA8E /* SceneDelegate.swift */,
+				77523C9F263B10C90099FA8E /* ViewController.swift */,
+				77523CA1263B10C90099FA8E /* Main.storyboard */,
+				77523CA4263B10CB0099FA8E /* Assets.xcassets */,
+				77523CA6263B10CB0099FA8E /* LaunchScreen.storyboard */,
+				77523CA9263B10CB0099FA8E /* Info.plist */,
+				77523CB3263B1DC70099FA8E /* RaddarViewControlller.swift */,
+				7702AC45263D4134003E4EB9 /* Extension.swift */,
+			);
+			path = MONDAR;
+			sourceTree = "<group>";
+		};
+		77E53D1FF45FF9EAC43CC89D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88C3541898303D903E51E7F6 /* Pods-MONDAR.debug.xcconfig */,
+				E374E17EB0EC033AD527670A /* Pods-MONDAR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92236DD251F6E9D350AE5BC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1ED3932B66C714721B069125 /* Pods_MONDAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77523C97263B10C90099FA8E /* MONDAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77523CAC263B10CB0099FA8E /* Build configuration list for PBXNativeTarget "MONDAR" */;
+			buildPhases = (
+				A80E37514B5A8FF6EE0B8257 /* [CP] Check Pods Manifest.lock */,
+				77523C94263B10C90099FA8E /* Sources */,
+				77523C95263B10C90099FA8E /* Frameworks */,
+				77523C96263B10C90099FA8E /* Resources */,
+				FC41825B36161F7496149583 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MONDAR;
+			productName = MONDAR;
+			productReference = 77523C98263B10C90099FA8E /* MONDAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77523C90263B10C90099FA8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					77523C97263B10C90099FA8E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 77523C93263B10C90099FA8E /* Build configuration list for PBXProject "MONDAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77523C8F263B10C90099FA8E;
+			productRefGroup = 77523C99263B10C90099FA8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77523C97263B10C90099FA8E /* MONDAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77523C96263B10C90099FA8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77523CA8263B10CB0099FA8E /* LaunchScreen.storyboard in Resources */,
+				7702AC41263D3747003E4EB9 /* raddarSound.mp3 in Resources */,
+				77523CA5263B10CB0099FA8E /* Assets.xcassets in Resources */,
+				77EDAE26263D51A300EBEAD8 /* no_monster_detected.mp3 in Resources */,
+				77523CA3263B10C90099FA8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A80E37514B5A8FF6EE0B8257 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MONDAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC41825B36161F7496149583 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MONDAR/Pods-MONDAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MONDAR/Pods-MONDAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MONDAR/Pods-MONDAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77523C94263B10C90099FA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7702AC46263D4134003E4EB9 /* Extension.swift in Sources */,
+				77523CA0263B10C90099FA8E /* ViewController.swift in Sources */,
+				77523C9C263B10C90099FA8E /* AppDelegate.swift in Sources */,
+				77523C9E263B10C90099FA8E /* SceneDelegate.swift in Sources */,
+				77523CB4263B1DC70099FA8E /* RaddarViewControlller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77523CA1263B10C90099FA8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77523CA2263B10C90099FA8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77523CA6263B10CB0099FA8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77523CA7263B10CB0099FA8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77523CAA263B10CB0099FA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77523CAB263B10CB0099FA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77523CAD263B10CB0099FA8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C3541898303D903E51E7F6 /* Pods-MONDAR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BQR3687MA;
+				INFOPLIST_FILE = MONDAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MONDAR.app.MONDAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77523CAE263B10CB0099FA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E374E17EB0EC033AD527670A /* Pods-MONDAR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4BQR3687MA;
+				INFOPLIST_FILE = MONDAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MONDAR.app.MONDAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77523C93263B10C90099FA8E /* Build configuration list for PBXProject "MONDAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77523CAA263B10CB0099FA8E /* Debug */,
+				77523CAB263B10CB0099FA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77523CAC263B10CB0099FA8E /* Build configuration list for PBXNativeTarget "MONDAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77523CAD263B10CB0099FA8E /* Debug */,
+				77523CAE263B10CB0099FA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77523C90263B10C90099FA8E /* Project object */;
+}
